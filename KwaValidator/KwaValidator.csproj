@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>KwaValidator</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Adyllsxn</Authors>
+    <Description>Library for validating Angolan BI (Bilhete de Identidade).</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Adyllsxn/KwaValidator</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
