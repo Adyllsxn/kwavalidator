@@ -8,10 +8,19 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>KwaValidator</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Adyllsxn</Authors>
-    <Description>Library for validating Angolan BI (Bilhete de Identidade).</Description>
+    <Authors>Domingos Nascimento (Adyllsxn)</Authors>
+    <Description>.NET library to validate Angolan documents, starting with the Identity Card (BI).</Description>
+
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
     <RepositoryUrl>https://github.com/Adyllsxn/KwaValidator</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+    <None Include="../LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
