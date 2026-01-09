@@ -10,11 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Adyllsxn")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Domingos Nascimento (Adyllsxn)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Library for validating Angolan BI (Bilhete de Identidade).")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute(".NET library to validate Angolan documents, starting with the Identity Card (BI).")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deb419a4583eabcb2606c6c4eb07199890c7d675")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+484e10bd30b7ba2a07c79b705ac60bcbd0442a74")]
 [assembly: System.Reflection.AssemblyProductAttribute("KwaValidator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KwaValidator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
