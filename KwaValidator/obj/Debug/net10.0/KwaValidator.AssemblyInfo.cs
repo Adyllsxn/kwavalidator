@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Library for validating Angolan BI (Bilhete de Identidade).")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deb419a4583eabcb2606c6c4eb07199890c7d675")]
 [assembly: System.Reflection.AssemblyProductAttribute("KwaValidator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KwaValidator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
