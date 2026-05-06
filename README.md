@@ -1,3 +1,14 @@
+<div align="center">
+  <img src="./docs/assets/logo.svg" alt="KwanzaSmart Logo" width="40%" />
+  
+> KwaValidator is a simple and extensible .NET library for validating Angolan documents, starting with the **Bilhete de Identidade (BI)**, focused on performance, reusability and framework independence.
+
+</div>
+
+---
+
+
+
 # KwaValidator
 
 > KwaValidator is a simple and extensible .NET library for validating Angolan documents, starting with the **Bilhete de Identidade (BI)**, focused on performance, reusability and framework independence.
