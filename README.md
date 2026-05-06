@@ -1,6 +1,10 @@
-# KwaValidator
-
+<div align="center">
+  <img src="./assets/kwa002.svg" alt="KwaValidator Logo" width="30%" />
+  
+  
 > KwaValidator is a simple and extensible .NET library for validating Angolan documents, starting with the **Bilhete de Identidade (BI)**, focused on performance, reusability and framework independence.
+
+</div>
 
 ---
 
@@ -62,4 +66,4 @@ Console.WriteLine($"Valid BI - Province: {result.Province!.Name}");
 
 ## 📄 License
 
-- This project is licensed under the MIT License, allowing commercial and personal use, modification, distribution, and private or public projects.
+> This project is licensed under the MIT License, allowing commercial and personal use, modification, distribution, and private or public projects.
