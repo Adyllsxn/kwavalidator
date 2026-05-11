@@ -4,7 +4,7 @@
 
 # KwaValidator
 
-**Simple, fast and extensible validation library for Angolan documents in .NET**
+**Cross-platform validation library for Angolan documents**
 
 [![NuGet Version](https://img.shields.io/nuget/v/KwaValidator.svg)](https://www.nuget.org/packages/KwaValidator)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/KwaValidator.svg)](https://www.nuget.org/packages/KwaValidator)
@@ -14,15 +14,17 @@
 
 ---
 
-## **✨ OVERVIEW**
+# ✨ Overview
 
-> **KwaValidator** is a lightweight and framework-independent .NET library designed to validate Angolan documents with high performance and clean architecture principles.
+> KwaValidator is a modern and extensible validation library focused on Angolan documents.
 
-Currently supported:
+Built to be lightweight, fast and framework-independent, allowing integration across multiple ecosystems and programming languages.
+
+### Currently Supported
 
 - 🇦🇴 Bilhete de Identidade (BI)
 
-Planned support:
+### Planned Support
 
 - NIF
 - Passport
@@ -30,37 +32,47 @@ Planned support:
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-- ⚡ High performance validation
-- 🧩 Extensible architecture
+- ⚡ Fast validation engine
+- 🌍 Cross-platform architecture
+- 🧩 Extensible document system
 - 🔒 Framework independent
-- 🧼 Clean and reusable API
+- 🧼 Clean and minimal API
+- 📦 Multi-ecosystem support
 - ❌ No forced exceptions
-- 🔧 Easy integration with any .NET project
+- 🔧 Easy integration
 
 ---
 
-# 📦 Installation
+# 📦 Ecosystem
 
-Install via NuGet Package Manager:
+| Platform | Package |
+|----------|----------|
+| .NET | `KwaValidator` |
+| Node.js | `kwavalidator` *(planned)* |
+| Python | `kwavalidator` *(planned)* |
 
-## Package Manager
-```powershell
-Install-Package KwaValidator
-```
+---
+
+# 📥 Installation
+
+## .NET
 
 ### NuGet
 ```powershell
 Install-Package KwaValidator
 ```
 
-**.NET CLI**
-```
+### .NET CLI
+```bash
 dotnet add package KwaValidator
 ```
 
-## How to use
+---
+
+# 🛠️ Usage
+
 ```csharp
 using KwaValidator.Services;
 
@@ -77,24 +89,21 @@ if (!result.IsValid)
 Console.WriteLine($"Valid BI - Province: {result.Province!.Name}");
 ```
 
-### KwaValidator does not force
+---
+
+# 📄 Philosophy
+
+KwaValidator does not enforce:
+
 - Exceptions
-- HTTP Status Codes
-- Specific return types
-- Any framework
+- HTTP status codes
+- Frameworks
+- Specific return patterns
 
-**You decide how to consume the validation result.**  
-
----
-
-## 👨‍💻 Author
-**Domingos Nascimento (Adyllsxn)**  
-
-- [LinkedIn](https://www.linkedin.com/in/adyllsxn/)  
-- [GitHub](https://github.com/Adyllsxn)  
+You decide how validation should behave inside your application.
 
 ---
 
-## 📄 License
+# 📜 License
 
-> This project is licensed under the MIT License, allowing commercial and personal use, modification, distribution, and private or public projects.
+Licensed under the MIT License.
