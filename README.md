@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/kwa002.svg" alt="KwaValidator Logo" width="180" />
+<img src="./assets/logo.svg" alt="KwaValidator Logo" width="180" />
 
 # KwaValidator
 
