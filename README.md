@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/logo.svg" alt="KwaValidator Logo" width="180" />
+<img src="./assets/logo.svg" alt="KwaValidator Logo" width="30%" />
 
-# KwaValidator
+# **KwaValidator**
 
 **Cross-platform validation library for Angolan documents**
 
