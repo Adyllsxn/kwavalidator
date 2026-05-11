@@ -1,22 +1,54 @@
 <div align="center">
-  <img src="./assets/kwa002.svg" alt="KwaValidator Logo" width="30%" />
-  
+
+<img src="./assets/kwa002.svg" alt="KwaValidator Logo" width="180" />
+
+# KwaValidator
+
+**Simple, fast and extensible validation library for Angolan documents in .NET**
+
+[![NuGet Version](https://img.shields.io/nuget/v/KwaValidator.svg)](https://www.nuget.org/packages/KwaValidator)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/KwaValidator.svg)](https://www.nuget.org/packages/KwaValidator)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 </div>
 
-> KwaValidator is a simple and extensible .NET library for validating Angolan documents, starting with the **Bilhete de Identidade (BI)**, focused on performance, reusability and framework independence.
+---
+
+## **✨ OVERVIEW**
+
+> **KwaValidator** is a lightweight and framework-independent .NET library designed to validate Angolan documents with high performance and clean architecture principles.
+
+Currently supported:
+
+- 🇦🇴 Bilhete de Identidade (BI)
+
+Planned support:
+
+- NIF
+- Passport
+- Driver License
 
 ---
 
-| Package | Version | Downloads |
-| ------ | ------- | --------- |
-| `KwaValidator` | [![NuGet](https://img.shields.io/nuget/v/KwaValidator.svg)](https://nuget.org/packages/KwaValidator) | [![NuGet](https://img.shields.io/nuget/dt/KwaValidator.svg)](https://nuget.org/packages/KwaValidator) |
+## 🚀 Features
+
+- ⚡ High performance validation
+- 🧩 Extensible architecture
+- 🔒 Framework independent
+- 🧼 Clean and reusable API
+- ❌ No forced exceptions
+- 🔧 Easy integration with any .NET project
 
 ---
 
-## Installation
+# 📦 Installation
 
-This package is available through NuGet Packages:  
-https://www.nuget.org/packages/KwaValidator
+Install via NuGet Package Manager:
+
+## Package Manager
+```powershell
+Install-Package KwaValidator
+```
 
 ### NuGet
 ```powershell
