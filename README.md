@@ -29,7 +29,6 @@ Built to be lightweight, fast and framework-independent, allowing integration ac
 - NIF
 - Passport
 - Driver License
-- Voter Card
 
 ---
 
