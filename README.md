@@ -2,7 +2,7 @@
 
 <img src="./assets/logotipo.svg" alt="KwaValidator Logo" width="30%" />
 
-# **KwaValidator**
+# 
 
 **Cross-platform validation library for Angolan documents**
 
