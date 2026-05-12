@@ -49,7 +49,6 @@
 |----------|----------|
 | .NET | `KwaValidator` |
 | Node.js | `kwavalidator` *(planned)* |
-| Python | `kwavalidator` *(planned)* |
 
 ---
 
@@ -61,7 +60,6 @@
 |----------|-------------------|
 | .NET | [Installation Guide](./docs/INSTALLATION-DOTNET.md) |
 | Node.js |  |
-| Python |  |
 
 ---
 
@@ -79,12 +77,6 @@ var result = validator.Validate("123456789LA001");
 ```javascript
 import { validateBI } from 'kwavalidator';
 const result = validateBI('123456789LA001');
-```
-
-**Python (coming soon)**
-```python
-from kwavalidator import validate_bi
-result = validate_bi('123456789LA001')
 ```
 
 ---
