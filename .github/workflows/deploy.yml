@@ -24,7 +24,7 @@ jobs:
       run: dotnet build --no-restore --configuration Release
       
     - name: Publish
-      run: dotnet publish KwaValidator/KwaValidator.csproj -c Release -o ./publish
+      run: dotnet publish src/dotnet/KwaValidator/KwaValidator.csproj -c Release -o ./publish
       
     - name: Display publish contents
       run: ls -la ./publish

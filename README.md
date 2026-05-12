@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="./assets/logotipo.svg" alt="KwaValidator Logo" width="30%" />
+<img src="./docs/assets/logotipo.svg" alt="KwaValidator Logo" width="30%" />
+</br>
 
-# 
+</div>
 
 **Cross-platform validation library for Angolan documents**
 
@@ -10,15 +11,12 @@
 [![NuGet Downloads](https://img.shields.io/nuget/dt/KwaValidator.svg)](https://www.nuget.org/packages/KwaValidator)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-</div>
-
 ---
 
-# ✨ Overview
 
 > KwaValidator is a modern and extensible validation library focused on Angolan documents.
 
-Built to be lightweight, fast and framework-independent, allowing integration across multiple ecosystems and programming languages.
+> Built to be lightweight, fast and framework-independent, allowing integration across multiple ecosystems and programming languages.
 
 ### Currently Supported
 
@@ -57,36 +55,36 @@ Built to be lightweight, fast and framework-independent, allowing integration ac
 
 # 📥 Installation
 
-## .NET
+## Choose your platform:
 
-### NuGet
-```powershell
-Install-Package KwaValidator
-```
-
-### .NET CLI
-```bash
-dotnet add package KwaValidator
-```
+| Platform | Installation Guide |
+|----------|-------------------|
+| .NET | [Installation Guide](./docs/INSTALLATION-DOTNET.md) |
+| Node.js |  |
+| Python |  |
 
 ---
 
-# 🛠️ Usage
+### Quick Examples
 
+**.NET**
 ```csharp
 using KwaValidator.Services;
 
 var validator = new BiValidator();
-
 var result = validator.Validate("123456789LA001");
+```
 
-if (!result.IsValid)
-{
-    Console.WriteLine(result.ErrorMessage);
-    return;
-}
+**Node.js (coming soon)**
+```javascript
+import { validateBI } from 'kwavalidator';
+const result = validateBI('123456789LA001');
+```
 
-Console.WriteLine($"Valid BI - Province: {result.Province!.Name}");
+**Python (coming soon)**
+```python
+from kwavalidator import validate_bi
+result = validate_bi('123456789LA001')
 ```
 
 ---
