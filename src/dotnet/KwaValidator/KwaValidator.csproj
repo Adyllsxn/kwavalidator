@@ -14,13 +14,13 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
 
-    <RepositoryUrl>https://github.com/Adyllsxn/KwaValidator</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Adyllsxn/kwavalidator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="../README.md" Pack="true" PackagePath="\" />
-    <None Include="../LICENSE" Pack="true" PackagePath="\" />
+    <None Include="../../../README.md" Pack="true" PackagePath="\" />
+    <None Include="../../../LICENSE" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

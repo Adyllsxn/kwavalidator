@@ -1,3 +1,7 @@
 <Solution>
-  <Project Path="KwaValidator/KwaValidator.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/dotnet/">
+    <Project Path="src/dotnet/KwaValidator.Tests/KwaValidator.Tests.csproj" />
+    <Project Path="src/dotnet/KwaValidator/KwaValidator.csproj" />
+  </Folder>
 </Solution>
