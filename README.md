@@ -1,15 +1,16 @@
 <div align="center">
 
 <img src="./docs/assets/logotipo.svg" alt="KwaValidator Logo" width="30%" />
+
 </br>
 
-</div>
-
-**Cross-platform validation library for Angolan documents**
+<h3> Cross-platform validation library for Angolan documents</h3>
 
 [![NuGet Version](https://img.shields.io/nuget/v/KwaValidator.svg)](https://www.nuget.org/packages/KwaValidator)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/KwaValidator.svg)](https://www.nuget.org/packages/KwaValidator)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+</div>
 
 ---
 
