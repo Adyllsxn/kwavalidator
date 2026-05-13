@@ -31,7 +31,7 @@
 
 ---
 
-# 🚀 Features
+# 🚀 FEATURES
 
 - ⚡ Fast validation engine
 - 🌍 Cross-platform architecture
@@ -44,7 +44,7 @@
 
 ---
 
-# 📦 Ecosystem
+# 📦 ECOSYSTEM
 
 | Platform | Package |
 |----------|----------|
@@ -53,7 +53,7 @@
 
 ---
 
-# 📥 Installation
+# 📥 INSTALLATION
 
 ## Choose your platform:
 
@@ -82,7 +82,7 @@ const result = validateBI('123456789LA001');
 
 ---
 
-# 📄 Philosophy
+# 📄 PHILOSOPHY
 
 KwaValidator does not enforce:
 
@@ -95,6 +95,6 @@ You decide how validation should behave inside your application.
 
 ---
 
-# 📜 License
+# 📜 LICENSE
 
-Licensed under the MIT License.
+> Licensed under the MIT License.
